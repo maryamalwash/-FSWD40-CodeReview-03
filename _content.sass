@@ -1,0 +1,35 @@
+@mixin  color($white) 
+	-webkit-color: $white
+	-ms-color: $white
+	-moz-color: $white
+	-ms-color: $white
+	color: $white
+
+.content
+	background-color: #3DA08C
+	padding: 0%
+	margin: 0%
+	display: flex
+	flex-flow: row wrap
+	align-items: baseline
+	div 
+		width: 30%
+		text-align: center
+		margin: 1.5%
+		img
+			width: 100%
+			border-radius: 200px
+		p
+			@include color(white)
+			overflow: scroll
+
+
+	
+
+.heading2
+	margin-left: 40%
+	margin-top: 0%
+	padding: 0%
+	color: #2E4451
+	width: 100%
+	font-size: 3em
